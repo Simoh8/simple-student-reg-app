@@ -1,0 +1,23 @@
+<h1>Todo App In A Form</h1>
+<form [formGroup]="form" (ngSubmit)="SubmitData()" >
+<Label>Enter Student Name</Label>
+<input type="text" placeholder="Enter Student Name" #name ngModel required formControlName="name">
+
+<Label>Enter The Student Registration Number</Label>
+<input type="text" placeholder="Enter The Student Registration Number" name="reg_number" #descriptions ngModel required formControlName="reg_number">
+<!-- <span >Enter Valid details</span> -->
+
+
+<Label>Enter The Student Image URL</Label>
+<input type="text" placeholder="Enter The Student Image URL" name="image" #image ngModel required formControlName="image">
+
+
+
+
+<Label>Enter The Student School Fess Balance </Label>
+<input type="number" placeholder="Enter The Student School Fess Balance " name="balance" #descriptions ngModel required formControlName="balance">
+
+
+<button type="submit" > ADD STUDENT</button>
+
+</form>

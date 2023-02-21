@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    /* border:  1px solid blueviolet; */
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(207, 247, 233);
+
+}
+input{
+    border-radius: 7px;
+    height: 1rem;
+    padding: 10px;
+}
+button{
+width: fit-content;
+height: 2rem;
+background-color: aqua;
+align-self: center;
+border-radius: 5px;
+border-style: none;
+
+}
+button:hover{
+color: rgb(249, 249, 250);
+background-color:  rgb(34, 31, 226);
+}

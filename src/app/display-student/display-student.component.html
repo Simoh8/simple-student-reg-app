@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="content" *ngFor="let student of students">
+        <img src={{student.image}} alt="">
+        <p>Name : {{student.name }}</p>
+        <p>Registration Number:{{student.reg_number}}</p>
+        <p>Balance: {{student.balance}}</p>
+        <button (click)="OnUpdate(reg_number)">Update</button>
+    </div> 
+
+</div>
